@@ -53,6 +53,7 @@ frappe.ui.form.on("Proforma Invoice", {
 		frm.set_df_property("packed_items", "cannot_delete_rows", true);
 	},
 
+
 	refresh: function (frm) {
 		if (frm.doc.docstatus === 1) {
 			if (
