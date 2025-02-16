@@ -821,7 +821,7 @@ erpnext.selling.SalesOrderController = class SalesOrderController extends erpnex
 					setTimeout(() => {
 						d.$parent.append(`
 							<span class='small text-muted'>
-								${__("Note: Please P create Proforma Invoices from individual Quotations to select from among Alternative Items.")}
+								${__("Note: Please create Proforma Invoices from individual Quotations to select from among Alternative Items.")}
 							</span>
 					`);
 					}, 200);
