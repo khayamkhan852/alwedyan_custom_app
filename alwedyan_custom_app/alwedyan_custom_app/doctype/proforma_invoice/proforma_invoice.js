@@ -798,7 +798,6 @@ erpnext.selling.SalesOrderController = class SalesOrderController extends erpnex
 				__("Quotation"),
 				function () {
 					let d = erpnext.utils.map_current_doc({
-						// method: "erpnext.selling.doctype.quotation.quotation.make_sales_order",
 						method: "alwedyan_custom_app.alwedyan_custom_app.doctype.proforma_invoice.proforma_invoice.make_proforma_invoice",
 						source_doctype: "Quotation",
 						target: me.frm,
